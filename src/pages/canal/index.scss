@@ -1,0 +1,33 @@
+.pagina-canal {
+    display: flex;
+    justify-content: center;
+
+    .inserir {
+        display: flex;
+        flex-wrap: wrap;
+        width: 290px;
+        align-items: center;
+        padding: 25px;
+        box-shadow: 0px 0px 9px 0px;
+        border-radius: 10px;
+        justify-content: end;
+
+        h1 {
+            text-align: center;
+        }
+        input {
+            padding: 10px;
+            margin: 5px;
+        }
+        label {
+            margin: 5px 10px;
+        }
+        .botao {
+            padding: 10px;
+            border: #000 solid 1px;
+            width: 150px;
+            text-align: center;
+            margin: 20px 15px;
+        }
+    }
+}
